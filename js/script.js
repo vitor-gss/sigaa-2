@@ -24,7 +24,7 @@ function ajustarTexto() {
     var textoElement = document.querySelector('#sigaa');
 
     if (width <= 768) {
-        textoElement.innerText = 'SIGAA'; // Altere para o texto desejado para telas menores
+        textoElement.innerText = 'Sistema Integrado de Gestão de Atividades Acadêmicas'; // Altere para o texto desejado para telas menores
     } else {
         textoElement.innerText = 'SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas'; // Texto original para telas maiores
     }
