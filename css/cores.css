@@ -1,0 +1,22 @@
+.bg-green1 {
+    background-color: #005227 !important;
+}
+
+.bg-black0 {
+    background-color: #000000 !important;
+}
+
+.bg-black1{
+    background-color: #111111 !important;
+}
+
+.fff{
+    color: #fff;
+}
+
+
+.bg-000:hover {
+    transition: ease 300ms !important;
+    cursor: pointer !important;
+    background-color: #007438 !important;
+}

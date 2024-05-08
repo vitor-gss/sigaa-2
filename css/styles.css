@@ -1,0 +1,94 @@
+body {
+    background-color: #212121 !important;
+}
+
+p,
+h2,
+span {
+    color: #fff;
+}
+
+aside p, aside span{
+    color: #14d16f;
+}
+
+/* Card */
+.card {
+    background-color: #111111 !important;
+    /* max-width: 15rem; */
+    min-height: 8rem;
+}
+
+.card:hover {
+    background-color: #070707 !important;
+    cursor: pointer;
+}
+
+.card i,
+.card span {
+    color: #14d16f;
+    font-weight: 500;
+}
+
+
+.card i {
+    font-size: 2.5rem;
+}
+
+/* Lista */
+.lista header {
+    border-radius: 8px 8px 0 0;
+}
+
+.lista .content {
+    background-color: #111111 !important;
+    border-radius: 0 0 8px 8px;
+}
+
+.lista span,
+.lista p {
+    font-weight: 400;
+}
+
+.lista .title, .lista header span {
+    font-weight: 500;
+}
+
+.title:hover{
+    color: #14d16f;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #14d16f;
+}
+
+.card-footer{
+    border-radius: 0.4rem !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.card-footer p, .card-footer span{
+    font-weight: 500;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+    background-color: #161515;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background-color: #3d3d3d; */
+    /* background: linear-gradient(#14d16f, #009cce); */
+    background: linear-gradient(#0fb15d, #005227);
+
+    border-radius: 8px;
+}
