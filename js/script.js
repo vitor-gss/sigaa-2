@@ -6,7 +6,7 @@ function criarCardDisciplina(card) {
                 <div class='col'>
                     <span class='title'>${disciplina.nome}</span>
                 </div>
-                <div class='col d-flex justify-content-end'>
+                <div class='col d-flex justify-content-end align-items-center'>
                     <span>${disciplina.sala}</span>
                 </div>
             </div>
